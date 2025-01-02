@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Postni o'chirish</h2>
+    <form method="POST" class="post-form" action="">
+        {% csrf_token %}
+        <p>
+            Post o'chirilsinmi?
+        </p>
+        <input type="submit" class="btn btn-danger" value="O'chirish">
+    </form>
+{% endblock content %}

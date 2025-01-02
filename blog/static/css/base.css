@@ -1,0 +1,11 @@
+header h1 a {
+    color: red;
+}
+
+.post_entry h2 a {
+    color: blue;
+}
+
+.post_entry h2 a:hover{
+    color: green;
+}
